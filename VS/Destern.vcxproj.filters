@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="behaviour">
+      <UniqueIdentifier>{8ac3eebb-f604-4540-8c2b-28e3c43b7cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creation">
+      <UniqueIdentifier>{e9d77c46-0ef2-40bf-86a4-4b3670c47f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structure">
+      <UniqueIdentifier>{722b061a-c5df-4af7-99c3-8f28b66538b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creation\singleton">
+      <UniqueIdentifier>{3026c444-cade-405b-8437-8b4b64757b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{fcc93d29-09c7-402b-8a52-8b45f14c25aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="creation\factory-method">
+      <UniqueIdentifier>{28ce0a76-c6d7-4a3c-962a-e85e29ff1562}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\src\destern\creation\singleton.cpp">
+      <Filter>creation\singleton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\destern\creation\singleton.h">
+      <Filter>creation\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\destern\utils\remove-duplicates.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\destern\utils\remove-type.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\destern\utils\type-list.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\destern\creation\factory-method.h">
+      <Filter>creation\factory-method</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\destern\creation\object.h">
+      <Filter>creation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
